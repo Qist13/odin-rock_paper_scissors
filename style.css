@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  min-height: 100%;
+}
+
+.results,
+.container,
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 128px;
+  margin-bottom: 100px;
+}
+
+.results {
+  margin-top: auto;
+  font-size: 48px;
+}
+
+.options {
+  justify-content: space-evenly;
+}
+
+.reset {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+}
+
+#btn-reset {
+  width: 100px;
+  height: 50px;
+  background-color: lightskyblue;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+
+#player-score,
+#computer-score {
+  font-size: 24px;
+}
+
+#btn-rock,
+#btn-paper,
+#btn-scissor {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: chocolate;
+  font-weight: bold;
+}
